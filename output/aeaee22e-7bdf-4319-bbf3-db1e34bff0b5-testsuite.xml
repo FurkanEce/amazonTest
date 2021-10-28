@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635353946689' stop='1635353983097'>
+    <name>First Test:</name>
+    <title>First Test:</title>
+    <test-cases>
+        <test-case start='1635353946692' status='failed' stop='1635353982635'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635353948692' status='passed' stop='1635353972258'>
+                    <name>homePage: homePage </name>
+                    <title>homePage: homePage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635353948694' status='passed' stop='1635353950950'>
+                            <name>I am on page "https://www.amazon.com/"</name>
+                            <title>I am on page "https://www.amazon.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353950950' status='passed' stop='1635353951257'>
+                            <name>I wait for element "span[class='nav-line-2 ']"</name>
+                            <title>I wait for element "span[class='nav-line-2 ']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353951258' status='passed' stop='1635353970498'>
+                            <name>I click "span[class='nav-line-2 ']"</name>
+                            <title>I click "span[class='nav-line-2 ']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353970498' status='passed' stop='1635353970552'>
+                            <name>I wait for element "input[id='ap_email']"</name>
+                            <title>I wait for element "input[id='ap_email']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353970552' status='passed' stop='1635353970767'>
+                            <name>I fill field "input[id='ap_email']", "furkanece99@gmail.com"</name>
+                            <title>I fill field "input[id='ap_email']", "furkanece99@gmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353970767' status='passed' stop='1635353970785'>
+                            <name>I wait for element "input[id='continue']"</name>
+                            <title>I wait for element "input[id='continue']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353970785' status='passed' stop='1635353972028'>
+                            <name>I click "input[id='continue']"</name>
+                            <title>I click "input[id='continue']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353972029' status='passed' stop='1635353972065'>
+                            <name>I wait for element "[id='ap_password']"</name>
+                            <title>I wait for element "[id='ap_password']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353972065' status='passed' stop='1635353972163'>
+                            <name>I fill field "[id='ap_password']", *****</name>
+                            <title>I fill field "[id='ap_password']", *****</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353972163' status='passed' stop='1635353972186'>
+                            <name>I wait for element "[id='signInSubmit']"</name>
+                            <title>I wait for element "[id='signInSubmit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353972186' status='passed' stop='1635353972258'>
+                            <name>I click "[id='signInSubmit']"</name>
+                            <title>I click "[id='signInSubmit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635353972258' status='passed' stop='1635353977476'>
+                    <name>searchPage: Search </name>
+                    <title>searchPage: Search </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635353972258' status='passed' stop='1635353974884'>
+                            <name>I fill field "[id='twotabsearchtextbox']", "Limitless"</name>
+                            <title>I fill field "[id='twotabsearchtextbox']", "Limitless"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353974884' status='passed' stop='1635353977476'>
+                            <name>I click "[id='nav-search-submit-button']"</name>
+                            <title>I click "[id='nav-search-submit-button']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635353977476' status='failed' stop='1635353982635'>
+                    <name>addPage: Add </name>
+                    <title>addPage: Add </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635353977476' status='passed' stop='1635353977508'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635353977508' status='failed' stop='1635353982634'>
+                            <name>I click "[src='https://m.media-amazon.com/images/I/81sfL78P3EL._AC_UY218_.jpg']"</name>
+                            <title>I click "[src='https://m.media-amazon.com/images/I/81sfL78P3EL._AC_UY218_.jpg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='84708be9-5af5-4e98-a964-9c7244f1582f-attachment.png' type='image/png' size='173558'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=95.0.4638.54)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=95.0.4638.54)
+                    at Object.getErrorFromResponseBody (C:\Users\furka\Desktop\CodeceptJS amazonTest\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\furka\Desktop\CodeceptJS amazonTest\node_modules\webdriver\build\request.js:134:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\furka\Desktop\CodeceptJS amazonTest\node_modules\@wdio\utils\build\shim.js:63:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

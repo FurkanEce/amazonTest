@@ -1,0 +1,176 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635405642369' stop='1635405721961'>
+    <name>First Test:</name>
+    <title>First Test:</title>
+    <test-cases>
+        <test-case start='1635405642372' status='passed' stop='1635405721747'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635405644108' status='passed' stop='1635405675069'>
+                    <name>homePage: homePage </name>
+                    <title>homePage: homePage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635405644109' status='passed' stop='1635405647053'>
+                            <name>I am on page "https://www.amazon.com/"</name>
+                            <title>I am on page "https://www.amazon.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405647054' status='passed' stop='1635405647660'>
+                            <name>I wait for element "span[class='nav-line-2 ']"</name>
+                            <title>I wait for element "span[class='nav-line-2 ']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405647661' status='passed' stop='1635405667912'>
+                            <name>I click "span[class='nav-line-2 ']"</name>
+                            <title>I click "span[class='nav-line-2 ']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405667913' status='passed' stop='1635405668475'>
+                            <name>I wait for element "input[id='ap_email']"</name>
+                            <title>I wait for element "input[id='ap_email']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405668476' status='passed' stop='1635405668940'>
+                            <name>I fill field "input[id='ap_email']", "furkanece99@gmail.com"</name>
+                            <title>I fill field "input[id='ap_email']", "furkanece99@gmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405668941' status='passed' stop='1635405669163'>
+                            <name>I wait for element "input[id='continue']"</name>
+                            <title>I wait for element "input[id='continue']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405669163' status='passed' stop='1635405670663'>
+                            <name>I click "input[id='continue']"</name>
+                            <title>I click "input[id='continue']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405670663' status='passed' stop='1635405670903'>
+                            <name>I wait for element "[id='ap_password']"</name>
+                            <title>I wait for element "[id='ap_password']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405670904' status='passed' stop='1635405671210'>
+                            <name>I fill field "[id='ap_password']", *****</name>
+                            <title>I fill field "[id='ap_password']", *****</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405671211' status='passed' stop='1635405671420'>
+                            <name>I wait for element "[id='signInSubmit']"</name>
+                            <title>I wait for element "[id='signInSubmit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405671420' status='passed' stop='1635405675068'>
+                            <name>I click "[id='signInSubmit']"</name>
+                            <title>I click "[id='signInSubmit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635405675069' status='passed' stop='1635405679261'>
+                    <name>searchPage: Search </name>
+                    <title>searchPage: Search </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635405675069' status='passed' stop='1635405675843'>
+                            <name>I fill field "[id='twotabsearchtextbox']", "Limitless"</name>
+                            <title>I fill field "[id='twotabsearchtextbox']", "Limitless"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405675844' status='passed' stop='1635405679261'>
+                            <name>I click "[id='nav-search-submit-button']"</name>
+                            <title>I click "[id='nav-search-submit-button']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635405679261' status='passed' stop='1635405689953'>
+                    <name>addPage: Add </name>
+                    <title>addPage: Add </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635405679261' status='passed' stop='1635405679787'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405679788' status='passed' stop='1635405684900'>
+                            <name>I click "[src='https://m.media-amazon.com/images/I/81sfL78P3EL._AC_UY218_.jpg']"</name>
+                            <title>I click "[src='https://m.media-amazon.com/images/I/81sfL78P3EL._AC_UY218_.jpg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405684901' status='passed' stop='1635405685762'>
+                            <name>I wait for element "[id='add-to-wishlist-button-submit']"</name>
+                            <title>I wait for element "[id='add-to-wishlist-button-submit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405685763' status='passed' stop='1635405687462'>
+                            <name>I click "[id='add-to-wishlist-button-submit']"</name>
+                            <title>I click "[id='add-to-wishlist-button-submit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405687463' status='passed' stop='1635405689952'>
+                            <name>I click "[id='WLHUC_result_listName']"</name>
+                            <title>I click "[id='WLHUC_result_listName']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635405689953' status='passed' stop='1635405721747'>
+                    <name>deletePage: Delete </name>
+                    <title>deletePage: Delete </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635405689953' status='passed' stop='1635405700297'>
+                            <name>I wait 10</name>
+                            <title>I wait 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405700297' status='passed' stop='1635405700736'>
+                            <name>I wait for element "[name='submit.deleteItem']"</name>
+                            <title>I wait for element "[name='submit.deleteItem']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405700737' status='passed' stop='1635405701278'>
+                            <name>I click "[name='submit.deleteItem']"</name>
+                            <title>I click "[name='submit.deleteItem']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1635405701278' status='passed' stop='1635405721747'>
+                            <name>I wait 20</name>
+                            <title>I wait 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
