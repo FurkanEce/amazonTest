@@ -20,11 +20,11 @@ module.exports = {
     I.waitForElement(this.buttons.signInButton);           //Bu Fonksiyon İlgili Butonun veya Field'ın yüklenmesini beklemeye yaramaktadır.
     I.click(this.buttons.signInButton);
     I.waitForElement(this.fields.emailField);
-    I.fillField(this.fields.emailField,'furkanece99@gmail.com');
+    I.fillField(this.fields.emailField,"yourEmail");
     I.waitForElement(this.buttons.continueButton);
     I.click(this.buttons.continueButton);
     I.waitForElement(this.fields.passwordField);
-    I.fillField(this.fields.passwordField, secret('Pinar123.'));
+    I.fillField(this.fields.passwordField, secret('yourPassword'));
     I.waitForElement(this.buttons.loginButton);
     I.click(this.buttons.loginButton);
 
